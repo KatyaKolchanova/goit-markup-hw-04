@@ -7,6 +7,7 @@
   --primary-bcg-color: #ffffff;
   --light-bcg-color: #f5f4fa;
   --dark-bcg-color: #2f303a;
+  --hero-bcg-color: #c4c4c4;
   --card-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -162,11 +163,25 @@ img {
 
 /* Стилизация секции Герой */
 .hero {
-  background-color: var(--dark-bcg-color);
+  background-color: var(--hero-bcg-color);
   color: var(--primary-text-color-darkbcg);
 }
 
-.hero .container {
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/Img-Hero.jpg);
+  background-position: center;
+}
+
+.overlay .container {
   display: flex;
   flex-direction: column;
   align-items: center;
