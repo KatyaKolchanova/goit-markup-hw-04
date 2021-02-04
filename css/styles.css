@@ -174,8 +174,12 @@ img {
   padding-bottom: 200px;
 }
 
-.hero-title {
+.title-container {
+  width: 696px;
   margin-bottom: 30px;
+}
+
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
