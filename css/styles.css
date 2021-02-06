@@ -55,7 +55,7 @@ img {
   border: 0;
   padding: 0;
   clip: rect(0 0 0 0);
-  owerflow: hidden;
+  overflow: hidden;
 }
 
 /* Общая стилизация*/
@@ -139,6 +139,8 @@ img {
 }
 
 .links.contacts {
+  display: flex;
+  align-items: center;
   color: var(--primary-text-color);
   text-decoration: none;
 }
@@ -150,6 +152,16 @@ img {
 
 .links.current {
   color: var(--accent-color);
+}
+
+.header .link-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.header .link-icon:hover,
+.header .link-icon:focus {
+  fill: var(--accent-color);
 }
 
 /* Стилизация заголовков на странице */
