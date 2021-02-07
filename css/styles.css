@@ -350,6 +350,20 @@ img {
   fill: #ffffff;
 }
 
+/* Стилизация секции со списком клиентов */
+
+.section-clients {
+  padding: 94px 0;
+}
+
+.clients-list {
+  display: flex;
+}
+
+.clients-list .item:not(:last-child) {
+  margin-right: 30px;
+}
+
 /* Стилизация футера */
 .footer {
   padding-top: 60px;
