@@ -329,15 +329,12 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: currentColor;
-  color: #ffffff;
-  fill: #ffffff;
+  background-color: #ffffff;
 }
 
 .employee .link-thumb:hover,
 .employee .link-thumb:focus {
   background-color: var(--accent-color);
-  color: currentColor;
 }
 
 .employee .link-icon {
@@ -356,12 +353,62 @@ img {
   padding: 94px 0;
 }
 
-.clients-list {
+.clients.list {
   display: flex;
 }
 
-.clients-list .item:not(:last-child) {
+.clients .item:not(:last-child) {
   margin-right: 30px;
+}
+
+.clients .link-thumb {
+  display: block;
+  justify-content: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid var(--primary-icon-fill);
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: var(--primary-bcg-color);
+}
+
+.clients .link-thumb:hover,
+.clients .link-thumb:focus {
+  background-color: var(--primary-bcg-color);
+  border: 1px solid var(--accent-color);
+}
+
+.clients .link-icon {
+  fill: var(--primary-icon-fill);
+}
+
+.clients .link-icon:hover,
+.clients .link-icon:focus {
+  fill: var(--accent-color);
+}
+
+.clients .icon1 {
+  padding: 20px 63px;
+}
+
+.clients .icon2 {
+  padding: 19px 65px;
+}
+
+.clients .icon3 {
+  padding: 24px 64px 23.4px 65px;
+}
+
+.clients .icon4 {
+  padding: 24px 45.34px 23.98px 45px;
+}
+
+.clients .icon5 {
+  padding: 22px 55px 21px 56px;
+}
+
+.clients .icon6 {
+  padding: 22px 40.52px 22.56px 41px;
 }
 
 /* Стилизация футера */
