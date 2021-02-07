@@ -358,53 +358,26 @@ img {
 }
 
 .clients .link-thumb {
-  display: block;
+  display: inline-flex;
   justify-content: center;
+  align-items: center;
   width: 170px;
   height: 90px;
   border: 1px solid var(--primary-icon-fill);
-  box-sizing: border-box;
   border-radius: 4px;
   background-color: var(--primary-bcg-color);
+  color: var(--primary-icon-fill);
 }
 
 .clients .link-thumb:hover,
 .clients .link-thumb:focus {
   background-color: var(--primary-bcg-color);
+  color: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
 
 .clients .link-icon {
-  fill: var(--primary-icon-fill);
-}
-
-.clients .link-icon:hover,
-.clients .link-icon:focus {
-  fill: var(--accent-color);
-}
-
-.clients .icon1 {
-  padding: 20px 63px;
-}
-
-.clients .icon2 {
-  padding: 19px 65px;
-}
-
-.clients .icon3 {
-  padding: 24px 64px 23.4px 65px;
-}
-
-.clients .icon4 {
-  padding: 24px 45.34px 23.98px 45px;
-}
-
-.clients .icon5 {
-  padding: 22px 55px 21px 56px;
-}
-
-.clients .icon6 {
-  padding: 22px 40.52px 22.56px 41px;
+  fill: currentColor;
 }
 
 /* Стилизация футера */
