@@ -324,27 +324,23 @@ img {
 }
 
 .employee .link-thumb {
-  display: block;
+  display: inline-flex;
   justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: #ffffff;
+  color: var(--primary-icon-fill);
 }
 
 .employee .link-thumb:hover,
 .employee .link-thumb:focus {
   background-color: var(--accent-color);
+  color: var(--primary-bcg-color);
 }
 
 .employee .link-icon {
-  padding: 12px;
-  fill: var(--primary-icon-fill);
-}
-
-.employee .link-icon:hover,
-.employee .link-icon:focus {
-  fill: #ffffff;
+  fill: currentColor;
 }
 
 /* Стилизация секции со списком клиентов */
